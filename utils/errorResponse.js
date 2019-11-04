@@ -1,6 +1,6 @@
 class errorResponse extends Error {
-    constructor(...params) {
-        super(...params);
+    constructor(message, status) {
+        super(message);
         this.status = status;
     }
 }
