@@ -10,6 +10,4 @@ install and configure mongoDB
 add config file .env and set value :
 
 
-PORT
-NODE_ENV
-MONGO_URI
+PORT , NODE_ENV , MONGO_URI
